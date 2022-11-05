@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+h3 {
+    color: white;
+    font-size: 1.1rem;
+}
+
+span {
+    display: inline-block;
+}
+
+.card {
+    max-width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+
+.image {
+    padding: 20px;
+    position: relative;
+}
+
+.card .image img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.view {
+    max-width: 100%;
+    background-color: hsla(178, 100%, 50%, .2);
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 24px;
+    left: 20px;
+    display: flex;
+    opacity: 0;
+}
+
+.view img {
+    margin: auto;
+}
+
+.view:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: ease-in-out 0.8s;
+}
+
+.text {
+    padding: 0 29px;
+}
+
+.card .text .text-content {
+    padding: 20px 0;
+    letter-spacing: .8px;
+    color: hsl(215, 51%, 70%);
+}
+
+.eth-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.card .text .price-eth {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.card .text .price-eth img {
+    margin-right: 5px;
+}
+
+.card .text .time-eth {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.card .text .time-eth img {
+    margin-right: 6px;
+}
+
+.carete-ue {
+    padding: 20px 0;
+    display: flex;
+}
+
+.carete-ue .cration {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.carete-ue span img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 10%;
+    margin-right: 15px;
+}
+
+.name {
+    color: white;
+}
